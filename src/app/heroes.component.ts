@@ -5,9 +5,10 @@ import { HeroService } from './hero.service';
 import { Hero } from './hero';
 
 @Component({
+  moduleId: module.id,
 	selector: 'my-heroes',
-	templateUrl: './dashboard.component.html',
-  styleUrls: [ '/.dashboard.component.css' ]
+	templateUrl: './heroes.component.html',
+  styleUrls: [ './heroes.component.css' ]
 })
 
 export class HeroesComponent implements OnInit {
